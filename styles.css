@@ -1,5 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 .body {
-  background: rgb(247 247 247);
+  background: rgb(236, 229, 229);
 }
 
 .content {
@@ -21,7 +32,7 @@
 }
 
 .grid1 {
-  background: white;
+  background: #ffff;
   padding: 20px;
   margin: 30px;
   margin-top: -70px;
@@ -33,7 +44,7 @@
 }
 
 .grid2 {
-  background: white;
+  background: #fff;
   padding: 20px;
   margin: 30px;
   margin-top: -70px;
@@ -41,18 +52,18 @@
 
 .grid2:hover {
   background: rgb(0, 157, 255);
-  color: white;
+  color: #fff;
 }
 
 .grid3 {
-  background: white;
+  background: #fff;
   padding: 20px;
   margin: 30px;
   margin-top: -70px;
 }
 
 .grid3:hover {
-  color: white;
+  color: #fff;
   background: rgb(0, 157, 255);
 }
 
@@ -65,38 +76,38 @@
 }
 
 .peace {
-  background: white;
+  background: #fff;
   padding: 20px;
   margin: 30px;
 }
 
 .peace:hover {
   background: rgb(0, 157, 255);
-  color: white;
+  color: #fff;
   padding: 20px;
   margin: 30px;
 }
 
 .set {
-  background: white;
+  background: #fff;
   margin: 30px;
   padding: 20px;
 }
 
 .set:hover {
   background: rgb(0, 157, 255);
-  color: white;
+  color: #fff;
 }
 
 .satisfaction {
-  background: white;
+  background: #fff;
   margin: 30px;
   padding: 20px;
 }
 
 .satisfaction:hover {
   background: rgb(0, 157, 255);
-  color: white;
+  color: #fff;
   margin: 30px;
   padding: 20px;
 }
@@ -123,7 +134,7 @@
 }
 
 .grid-one {
-  background: white;
+  background: #fff;
   margin: 40px;
   padding: 40px;
   display: flex;
@@ -145,7 +156,6 @@
   display: inline;
   padding-top: 70px;
 }
-
 .grids5 {
   display: flex;
   justify-content: space-evenly;
@@ -176,13 +186,13 @@
 .grids8:hover {
   background: rgb(37, 42, 65);
   border: none;
-  color: white;
+  color: #fff;
   margin: 10px;
 }
 
 .grids8 {
   margin-top: 90px;
-  background: white;
+  background: #fff;
   border-radius: 10px;
   padding: 20px;
   line-height: 42px;
@@ -192,7 +202,7 @@
 
 .grids9 {
   margin-top: 90px;
-  background: white;
+  background: #fff;
   border-radius: 10px;
   padding: 20px;
   line-height: 42px;
@@ -204,13 +214,13 @@
 .grids9:hover {
   background: rgb(37, 42, 65);
   border: none;
-  color: white;
+  color: #fff;
   margin: 10px;
 }
 
 .grids10 {
   margin-top: 90px;
-  background: white;
+  background: #fff;
   border-radius: 10px;
   padding: 20px;
   line-height: 42px;
@@ -221,7 +231,7 @@
 .grids10:hover {
   background: rgb(37, 42, 65);
   border: none;
-  color: white;
+  color: #fff;
   margin: 10px;
 }
 
@@ -243,7 +253,7 @@
   display: flex;
   padding: 50px;
   background: rgb(2, 2, 42);
-  color: white;
+  color: #fff;
   margin-top: 50px;
 
   justify-content: space-between;
@@ -254,7 +264,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: #fff;
   margin-top: -200px;
   margin-left: 400px;
   margin-bottom: 30px;
@@ -269,7 +279,7 @@
 
 .buttonheader {
   background-color: transparent;
-  color: white;
+  color: #fff;
   padding: 10px;
   border: none;
   border-radius: 10px;
@@ -295,27 +305,27 @@
 
 .buton {
   background: transparent;
-  border: 2px solid white;
+  border: 2px solid #fff;
 }
 
 .buton:hover {
   background: rgb(0, 157, 255);
-  color: white;
+  color: #fff;
 }
 
 .learns {
   background: transparent;
-  border: 2px solid white;
+  border: 2px solid #fff;
   color: #fff;
 }
 
 .learns:hover {
   background: rgb(0, 157, 255);
-  color: white;
+  color: #fff;
 }
 
 .quote-btn button {
-  color: white;
+  color: #fff;
   border-radius: 20px;
   padding: 15px;
   margin: 10px;
@@ -344,7 +354,7 @@
 .grids12 button {
   width: 100%;
   height: 30px;
-  color: white;
+  color: #fff;
   background: rgb(0, 157, 255);
   border: none;
   border-radius: 5px;
@@ -355,7 +365,7 @@
   width: 200px;
   height: 40px;
   padding: 20px;
-  background: white;
+  background: #fff;
   border: none;
   margin-top: 13px;
   float: left;
@@ -426,7 +436,7 @@
   border: none;
   background: rgb(35, 164, 237);
   border-radius: 8px;
-  color: white;
+  color: #fff;
   font-weight: 600;
   font-size: 20px;
 }
@@ -468,8 +478,8 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  
-  
+
+
 
 }
 
@@ -492,18 +502,18 @@
 
 }
 
-.par h1{
+.par h1 {
   display: flex;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: #fff;
 }
 
 .par1 {
   display: flex;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: #fff;
 }
 
 .home {
@@ -513,13 +523,13 @@
 .login button {
   border: none;
   padding-left: 100px;
-  color: white;
+  color: #fff;
   background-color: transparent;
 }
 
 .login button:hover {
   background: rgb(35, 164, 237);
-  color: white;
+  color: #fff;
   width: 100px;
 }
 
@@ -636,7 +646,8 @@ ul {
   display: flex;
 
 }
-.icon_circle{
+
+.icon_circle {
   height: 20;
   color: green;
 }
@@ -644,7 +655,8 @@ ul {
 .grid-img {
   height: 40px;
 }
-.login{
+
+.login {
   margin-left: 150px;
 }
 
@@ -653,13 +665,14 @@ ul {
   .body {
     background: rgb(247 247 247);
   }
-  .container{
+
+  .container {
     background: rgb(247 247 247);
   }
 
   .content {
-     background: url(/images/hero.png); 
-     background-repeat: no-repeat;
+    background: url(/images/hero.png);
+    background-repeat: no-repeat;
     background-size: 100% 600px;
     height: 600px;
   }
@@ -677,7 +690,7 @@ ul {
   }
 
   .grid1 {
-    background: white;
+    background: #fff;
     padding: 20px;
     margin-top: 50px;
   }
@@ -687,10 +700,12 @@ ul {
     text-align: center;
     display: flex;
   }
-  .par h1{
+
+  .par h1 {
     font-size: 20px;
   }
-  .par p{
+
+  .par p {
     font-size: 22px;
   }
 
@@ -698,7 +713,8 @@ ul {
     background: rgb(0, 157, 255);
     color: #fff;
   }
-  .quote-btn button{
+
+  .quote-btn button {
     height: 45px;
     width: 80px;
     display: flex;
@@ -706,15 +722,16 @@ ul {
     align-items: center;
     justify-content: center;
   }
+
   .grid2 {
-    background: white;
+    background: #fff;
     padding: 20px;
     margin-top: 30px;
   }
 
   .grid2:hover {
     background: rgb(0, 157, 255);
-    color: white;
+    color: #fff;
   }
 
   .grid2 img {
@@ -722,13 +739,13 @@ ul {
   }
 
   .grid3 {
-    background: white;
+    background: #fff;
     padding: 20px;
     margin-top: 30px;
   }
 
   .grid3:hover {
-    color: white;
+    color: #fff;
     background: rgb(0, 157, 255);
   }
 
@@ -742,7 +759,7 @@ ul {
   }
 
   .peace {
-    background: white;
+    background: #fff;
     padding: 20px;
     margin: 30px;
   }
@@ -750,13 +767,13 @@ ul {
 
   .peace:hover {
     background: rgb(0, 157, 255);
-    color: white;
+    color: #fff;
     padding: 20px;
     margin: 30px;
   }
 
   .set {
-    background: white;
+    background: #fff;
     margin: 30px;
     padding: 20px;
   }
@@ -766,7 +783,7 @@ ul {
   }
 
   .satisfaction {
-    background: white;
+    background: #fff;
     margin: 30px;
     padding: 20px;
   }
@@ -808,7 +825,7 @@ ul {
   }
 
   .grid-one {
-    background: white;
+    background: #fff;
     padding: 20px;
     display: flex;
     flex-flow: column;
@@ -866,7 +883,8 @@ ul {
     justify-content: space-evenly;
     align-items: center;
   }
-  .icon_circle{
+
+  .icon_circle {
     height: 20;
     color: green;
   }
@@ -874,13 +892,13 @@ ul {
   .grids8:hover {
     background: rgb(37, 42, 65);
     border: none;
-    color: white;
+    color: #fff;
     margin: 10px;
   }
 
   .grids8 {
     margin-top: 90px;
-    background: white;
+    background: #fff;
     border-radius: 10px;
     padding: 20px;
     line-height: 42px;
@@ -890,7 +908,7 @@ ul {
 
   .grids9 {
     margin-top: 90px;
-    background: white;
+    background: #fff;
     border-radius: 10px;
     padding: 20px;
     line-height: 42px;
@@ -902,13 +920,13 @@ ul {
   .grids9:hover {
     background: rgb(37, 42, 65);
     border: none;
-    color: white;
+    color: #fff;
     margin: 10px;
   }
 
   .grids10 {
     margin-top: 90px;
-    background: white;
+    background: #fff;
     border-radius: 10px;
     padding: 20px;
     line-height: 42px;
@@ -919,7 +937,7 @@ ul {
   .grids10:hover {
     background: rgb(37, 42, 65);
     border: none;
-    color: white;
+    color: #fff;
     margin: 10px;
   }
 
@@ -944,12 +962,13 @@ ul {
     flex-direction: row;
     padding: 25px;
     background: rgb(2, 2, 42);
-    color: white;
+    color: #fff;
     justify-content: center;
     align-items: center;
     width: 100%;
   }
-  .grids11 h1 p{
+
+  .grids11 h1 p {
     margin-left: 20px;
     text-align: center;
     justify-content: center;
@@ -960,7 +979,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
+    background: #fff;
     margin-top: 10px;
     margin-left: 25%;
     margin-bottom: 30px;
@@ -971,7 +990,7 @@ ul {
 
   .buttonheader {
     background-color: transparent;
-    color: white;
+    color: #fff;
     padding: 10px;
     border: none;
     border-radius: 10px;
@@ -997,27 +1016,27 @@ ul {
 
   .buton {
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid #fff;
   }
 
   .buton:hover {
     background: rgb(0, 157, 255);
-    color: white;
+    color: #fff;
   }
 
   .learns {
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid #fff;
     color: #fff;
   }
 
   .learns:hover {
     background: rgb(0, 157, 255);
-    color: white;
+    color: #fff;
   }
 
   .quote-btn button {
-    color: white;
+    color: #fff;
     border-radius: 20px;
     padding: 15px;
     margin: 10px;
@@ -1048,7 +1067,7 @@ ul {
   .grids12 button {
     width: 80%;
     height: 30px;
-    color: white;
+    color: #fff;
     background: rgb(0, 157, 255);
     border: none;
     border-radius: 5px;
@@ -1059,7 +1078,7 @@ ul {
     width: 100px;
     height: 30px;
     padding: 10px;
-    background: white;
+    background: #fff;
     border: none;
     margin-top: 10px;
     font-size: 16px;
@@ -1131,7 +1150,7 @@ ul {
     border: none;
     background: rgb(35, 164, 237);
     border-radius: 8px;
-    color: white;
+    color: #fff;
     font-weight: 600;
     font-size: 20px;
   }
@@ -1200,7 +1219,7 @@ ul {
     display: flex;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: #fff;
   }
 
   .home {
@@ -1210,13 +1229,13 @@ ul {
   .login button {
     border: none;
     padding-left: 100px;
-    color: white;
+    color: #fff;
     background-color: transparent;
   }
 
   .login button:hover {
     background: rgb(35, 164, 237);
-    color: white;
+    color: #fff;
     width: 100px;
   }
 
@@ -1233,7 +1252,8 @@ ul {
     text-decoration: none;
   }
 
-  ul {    list-style: none;
+  ul {
+    list-style: none;
   }
 
   /* footer */
@@ -1317,48 +1337,58 @@ ul {
     height: 50px;
   }
 }
+
 /* Phone media query */
-@media screen and(max-width: 450px){
-  .nav-toggler{
-      display: flex;
+@media screen and(max-width: 450px) {
+  .nav-toggler {
+    display: flex;
   }
-  .header .nav{
-      position: absolute;
-      left:0;
-      top:100%;
-      width: 100%;
-      border-top: 1px solid rgba(255,255,255,0.2);
-      visibility: hidden;
+
+  .header .nav {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    visibility: hidden;
   }
-  .header .nav ul li{
-      display: flex;
-      margin:100px;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
+
+  .header .nav ul li {
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
-  .header #nav-check:checked ~ .nav{
-     opacity: 1;
-     visibility: visible;
+
+  .header #nav-check:checked~.nav {
+    opacity: 1;
+    visibility: visible;
   }
-  .header #nav-check:focus ~ .nav-toggler{
-      box-shadow: 0 0 15px #000000;
+
+  .header #nav-check:focus~.nav-toggler {
+    box-shadow: 0 0 15px #000000;
   }
-  .header #nav-check:checked ~ .nav-toggler span{
-      background-color: transparent;
+
+  .header #nav-check:checked~.nav-toggler span {
+    background-color: transparent;
   }
-  .header #nav-check:checked ~ .nav-toggler span::before{
-      top:0;
-      transform: rotate(45deg);
+
+  .header #nav-check:checked~.nav-toggler span::before {
+    top: 0;
+    transform: rotate(45deg);
   }
-  .header #nav-check:checked ~ .nav-toggler span::after{
-      top:0;
-      transform: rotate(-45deg);
+
+  .header #nav-check:checked~.nav-toggler span::after {
+    top: 0;
+    transform: rotate(-45deg);
   }
+
   .body {
     background: rgb(247 247 247);
   }
-  .container{
+
+  .container {
     background: rgb(247 247 247);
   }
 
@@ -1367,7 +1397,8 @@ ul {
     background-repeat: no-repeat;
     background-size: 100% 1000px;
   }
-  .detail{
+
+  .detail {
     padding: initial;
     justify-content: center;
     align-items: center;
@@ -1384,7 +1415,7 @@ ul {
     
 
   }    */
-  .par h1{
+  .par h1 {
     font-size: 10px;
     justify-content: center;
     display: flex;
@@ -1393,7 +1424,7 @@ ul {
   }
 
   .grid1 {
-    background: white;
+    background: #fff;
     padding: 10px;
     justify-content: center;
   }
@@ -1412,7 +1443,7 @@ ul {
   }
 
   .grid2 {
-    background: white;
+    background: #fff;
     padding: 20px;
     margin: 30px;
     margin-top: -70px;
@@ -1420,7 +1451,7 @@ ul {
 
   .grid2:hover {
     background: rgb(0, 157, 255);
-    color: white;
+    color: #fff;
   }
 
   .grid2 img {
@@ -1428,14 +1459,14 @@ ul {
   }
 
   .grid3 {
-    background: white;
+    background: #fff;
     padding: 20px;
     margin: 30px;
     margin-top: -70px;
   }
 
   .grid3:hover {
-    color: white;
+    color: #fff;
     background: rgb(0, 157, 255);
   }
 
@@ -1449,7 +1480,7 @@ ul {
   }
 
   .peace {
-    background: white;
+    background: #fff;
     padding: 20px;
     margin: 30px;
   }
@@ -1457,13 +1488,13 @@ ul {
 
   .peace:hover {
     background: rgb(0, 157, 255);
-    color: white;
+    color: #fff;
     padding: 20px;
     margin: 30px;
   }
 
   .set {
-    background: white;
+    background: #fff;
     margin: 30px;
     padding: 20px;
   }
@@ -1473,7 +1504,7 @@ ul {
   }
 
   .satisfaction {
-    background: white;
+    background: #fff;
     margin: 30px;
     padding: 20px;
   }
@@ -1515,7 +1546,7 @@ ul {
   }
 
   .grid-one {
-    background: white;
+    background: #fff;
     padding: 20px;
     display: flex;
     flex-flow: column;
@@ -1576,13 +1607,13 @@ ul {
   .grids8:hover {
     background: rgb(37, 42, 65);
     border: none;
-    color: white;
+    color: #fff;
     margin: 10px;
   }
 
   .grids8 {
     margin-top: 90px;
-    background: white;
+    background: #fff;
     border-radius: 10px;
     padding: 20px;
     line-height: 42px;
@@ -1592,7 +1623,7 @@ ul {
 
   .grids9 {
     margin-top: 90px;
-    background: white;
+    background: #fff;
     border-radius: 10px;
     padding: 20px;
     line-height: 42px;
@@ -1604,13 +1635,13 @@ ul {
   .grids9:hover {
     background: rgb(37, 42, 65);
     border: none;
-    color: white;
+    color: #fff;
     margin: 10px;
   }
 
   .grids10 {
     margin-top: 90px;
-    background: white;
+    background: #fff;
     border-radius: 10px;
     padding: 20px;
     line-height: 42px;
@@ -1621,7 +1652,7 @@ ul {
   .grids10:hover {
     background: rgb(37, 42, 65);
     border: none;
-    color: white;
+    color: #fff;
     margin: 10px;
   }
 
@@ -1646,13 +1677,14 @@ ul {
     flex-direction: row;
     padding: 20px;
     background: rgb(2, 2, 42);
-    color: white;
+    color: #fff;
     margin-top: 50px;
     justify-content: center;
     align-items: center;
     width: 80%;
   }
-  .grids11 h1 p{
+
+  .grids11 h1 p {
     margin-left: 20px;
     text-align: center;
     justify-content: center;
@@ -1664,7 +1696,7 @@ ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: white;
+    background: #fff;
     margin-top: -100px;
     padding: 20px;
   }
@@ -1675,7 +1707,7 @@ ul {
 
   .buttonheader {
     background-color: transparent;
-    color: white;
+    color: #fff;
     padding: 10px;
     border: none;
     border-radius: 10px;
@@ -1701,27 +1733,27 @@ ul {
 
   .buton {
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid #fff;
   }
 
   .buton:hover {
     background: rgb(0, 157, 255);
-    color: white;
+    color: #fff;
   }
 
   .learns {
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid #fff;
     color: #fff;
   }
 
   .learns:hover {
     background: rgb(0, 157, 255);
-    color: white;
+    color: #fff;
   }
 
   .quote-btn button {
-    color: white;
+    color: #fff;
     border-radius: 20px;
     padding: 15px;
     margin: 10px;
@@ -1752,7 +1784,7 @@ ul {
   .grids12 button {
     width: 100%;
     height: 30px;
-    color: white;
+    color: #fff;
     background: rgb(0, 157, 255);
     border: none;
     border-radius: 5px;
@@ -1763,7 +1795,7 @@ ul {
     width: 100px;
     height: 30px;
     padding: 10px;
-    background: white;
+    background: #fff;
     border: none;
     margin-top: 10px;
     font-size: 16px;
@@ -1835,7 +1867,7 @@ ul {
     border: none;
     background: rgb(35, 164, 237);
     border-radius: 8px;
-    color: white;
+    color: #fff;
     font-weight: 600;
     font-size: 20px;
   }
@@ -1903,7 +1935,7 @@ ul {
   .par {
     display: flex;
     justify-content: center;
-    color: white;
+    color: #fff;
     text-align: center;
     align-items: center;
   }
@@ -1915,13 +1947,13 @@ ul {
   .login button {
     border: none;
     padding-left: 100px;
-    color: white;
+    color: #fff;
     background-color: transparent;
   }
 
   .login button:hover {
     background: rgb(35, 164, 237);
-    color: white;
+    color: #fff;
     width: 100px;
   }
 
@@ -2019,6 +2051,7 @@ ul {
   .grid-img {
     height: 50px;
   }
+
   .detail {
     padding: 5px 150px 10px 150px;
   }
